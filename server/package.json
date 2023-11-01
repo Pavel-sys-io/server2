@@ -1,0 +1,19 @@
+{
+    "name": "nuxt.js",
+    "version": "1.0.0",
+    "description": "Nuxt.js project",
+    "author": "Your Name",
+    "private": true,
+    "scripts": {
+      "dev": "nuxt",
+      "build": "nuxt build",
+      "start": "nuxt start"
+    },
+    "dependencies": {
+      "nuxt": "^2.15.7", 
+      "express": "^4.17.1", 
+      "fs": "0.0.1", 
+      "cors": "^2.8.5" 
+    }
+  }
+  

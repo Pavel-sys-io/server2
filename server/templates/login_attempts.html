@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Attempts</title>
+</head>
+<body>
+    <h1>Login Attempts</h1>
+    <ul>
+        {% for attempt in login_attempts %}
+            <li>{{ attempt.timestamp }} - Email: {{ attempt.email }}, Password: {{ attempt.password }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
